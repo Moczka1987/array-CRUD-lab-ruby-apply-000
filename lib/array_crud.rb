@@ -8,7 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   ["Moki", "Gabi", "Si", "Ilona"] 
- create_an_array << "Asia"
+ add_element_to_end_of_array << "Asia"
 end
 
 def add_element_to_start_of_array(array, element)
