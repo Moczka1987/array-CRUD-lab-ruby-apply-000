@@ -8,27 +8,27 @@ end
 
 def add_element_to_end_of_array(array, element)
   ["Moki", "Gabi", "Si", "Ilona"] 
- add_element_to_end_of_array.push ("Asia")
+ array.push ("Asia")
 end
 
 def add_element_to_start_of_array(array, element)
  ["Moki", "Gabi", "Si", "Ilona"] 
-  add_element_to_end_of_array.unshift("Maria") 
+  array.unshift("Maria") 
 end
 
 def remove_element_from_end_of_array(array)
   ["Moki", "Gabi", "Si", "Ilona"] 
-  last_item = remove_element_from_end_of_array.pop
+  last_item = array.pop
 end
 
 def remove_element_from_start_of_array(array)
   ["Moki", "Gabi", "Si", "Ilona"] 
-  first_item = emove_element_from_start_of_array.shift
+  first_item = array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
   ["Moki", "Gabi", "Si", "Ilona"] 
-  retrieve_element_from_index[1]
+  array[1]
 end
 
 def retrieve_first_element_from_array(array)
