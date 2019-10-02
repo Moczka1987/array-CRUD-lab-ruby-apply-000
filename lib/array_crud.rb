@@ -38,5 +38,6 @@ end
 
 def retrieve_last_element_from_array(array)
   ["Moki", "Gabi", "Si", "Ilona"] 
-array[-1]  
+x = array.count
+  array[x-1] 
 end
