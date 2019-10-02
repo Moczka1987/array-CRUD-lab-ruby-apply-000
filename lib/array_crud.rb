@@ -24,7 +24,7 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-  array = ["Moki", "Gabi", "Si", "Asia", "Ilona"]
+  array = ["Moki", "Gabi", "Si", "Asia", "wow"]
    array.shift
 end
 
