@@ -33,7 +33,7 @@ end
 
 def retrieve_first_element_from_array(array)
   ["Moki", "Gabi", "Si", "Ilona"] 
-  retrieve_first_element_from_array[0]
+  array[0]
 end
 
 def retrieve_last_element_from_array(array)
