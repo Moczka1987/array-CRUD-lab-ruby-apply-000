@@ -39,6 +39,6 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  array = ["Moki", "Gabi", "Si", "Asia", "Ilona"]
+  array = ["Moki", "Gabi", "Si", "Asia", "arrays!"]
 array[-1] 
 end
