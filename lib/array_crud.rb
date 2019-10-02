@@ -38,5 +38,5 @@ end
 
 def retrieve_last_element_from_array(array)
   ["Moki", "Gabi", "Si", "Ilona"] 
-retrieve_first_element_from_array[-1]  
+array[-1]  
 end
